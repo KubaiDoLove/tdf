@@ -13,8 +13,6 @@
 
 # Help
 
-### List of all command
-To see all available commands execute in your terminal "tdf -h"
+- To see all available commands execute in your terminal "tdf -h"
 
-> If you want more info about command, type tdf \<name of command\> -h.
-> For example "tdf component -h".
+- If you want more info about command, type tdf \<name of command\> -h. For example "tdf component -h".
