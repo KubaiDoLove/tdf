@@ -2,14 +2,21 @@
 
 ### Windows
 1) Download go [here](https://golang.org/dl/)
-2) Execute in the terminal "go get github.com/KubaiDoLove/tdf"
+2) Execute in the terminal "go get -u github.com/KubaiDoLove/tdf"
 3) Use CLI!
 
 ### MacOS
 1) Download go [here](https://golang.org/dl/)
-2) Execute in the terminal "go get github.com/KubaiDoLove/tdf"
-2) Add export PATH=$PATH:/usr/local/go/bin to your ~/.zshrc
-3) Use CLI!
+2) Execute in the terminal "go get -u github.com/KubaiDoLove/tdf"
+3) Add export "PATH=$PATH:/usr/local/go/bin" to your ~/.zshrc
+4) Use CLI!
+
+### Linux
+1) Download go [here](https://golang.org/dl/)
+2) Execute in the terminal "go get -u github.com/KubaiDoLove/tdf"
+3) Add "export PATH=$PATH:$HOME/go/bin" to your $HOME/.profile
+4) Use CLI!
+
 
 # Help
 
