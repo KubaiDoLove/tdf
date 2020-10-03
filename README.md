@@ -1,3 +1,7 @@
+# Update your current TDF
+
+1) Execute in the terminal "go get -u github.com/KubaiDoLove/tdf"
+
 # Installation
 
 ### Windows
