@@ -1,5 +1,5 @@
 /*
-Copyright © 2020 NAME HERE <EMAIL ADDRESS>
+Copyright © 2020 KubaiDoLove orochimaru@mail.ru
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -108,9 +108,15 @@ var componentCmd = &cobra.Command{
 		}
 		if isScssIncluded {
 			boilerplate = append(boilerplate, fileToWrite{
-				OutputDir: componentDir,
-				Name:      componentName + ".scss",
+				RawTemplate: templates.ComponentStylesTemplate,
+				OutputDir:   componentDir,
+				Name:        componentName + ".scss",
+				TemplateData: componentData{
+					Name: componentName,
+				},
 			})
+			// Pass template with scss
+			boilerplate[0].RawTemplate = templates.ComponentTemplateWithScss
 		}
 
 		if err := writeComponentFiles(boilerplate...); err != nil {
