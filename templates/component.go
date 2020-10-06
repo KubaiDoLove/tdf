@@ -14,10 +14,10 @@ export default {{.Name}}
 // ComponentTemplateWithScss represents boilerplate data for React components in TS with Scss file included
 const ComponentTemplateWithScss = `import React, { FC } from 'react'
 import { {{.Name}}Props } from './types'
-import '{{.Name}}.scss'
+import './{{.Name}}.scss'
 
 const {{.Name}}: FC<{{.Name}}Props> = () => {
-  return <div className='{{.Name}}'><div/>
+  return <div className='{{.Name}}'></div>
 }
 
 export default {{.Name}}
